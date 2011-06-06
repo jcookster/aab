@@ -141,7 +141,7 @@ button {  width: auto; overflow: visible; }
 */
 #navigation{
 	float:right;
-	margin-bottom:-20px;
+	margin-bottom:-30px;
 	position:relative;
 	padding:40px 70px 0 0;
 }
@@ -157,7 +157,7 @@ button {  width: auto; overflow: visible; }
 	
 }
 .navigationItem{
-	font-size:1.5em;
+	font-size:1.2em;
 	font-weight:bold;
 }
 .navigationDescription{
@@ -199,7 +199,6 @@ button {  width: auto; overflow: visible; }
 #intro{
 	overflow:auto;
 	width:800px;
-	clear:both;		
 	margin:0 auto;
 }
 #introBody{
@@ -222,6 +221,7 @@ button {  width: auto; overflow: visible; }
 #pageBody{
 	width:900px;
 	margin:0 auto;
+	clear:both;
 }
 #content{
 	clear:both;
@@ -261,6 +261,20 @@ button {  width: auto; overflow: visible; }
 	border-width:1px 1px 3px 1px;
 	border-radius:0 0 5px 5px;
 }
+
+#mapCanvas{
+	float:right;
+	width:650px;
+	height:400px;
+}
+#mapContainer{
+	border:2px solid #231f1f;
+	color:#fff;
+	float:left;
+	margin-top:30px;
+	background-color:#656565;
+	width:850px;
+}
 #footer{ 
 	width:700px;
 	overflow:auto;
@@ -272,7 +286,7 @@ button {  width: auto; overflow: visible; }
 }
 .footerRule{
 	overflow:auto;
-	border:1px solid black;
+	border:1px solid #231f1f;
 	width:332px;
 	margin:10px auto;
 	float:left;
