@@ -1,0 +1,9 @@
+# Enable Rewrite Engine
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*index\.html\ HTTP/
+RewriteRule ^(.*)index\.html$ http://dev.allaboutbrewing.com/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
+RewriteRule ^(.*)\.html$ http://dev.allaboutbrewing.com/$1 [R=301,L]
+
+
