@@ -143,7 +143,7 @@ button {  width: auto; overflow: visible; }
 	float:right;
 	margin-bottom:-30px;
 	position:relative;
-	padding:40px 70px 0 0;
+	padding:40px 100px 0 0;
 }
 #navigation a{
 	text-decoration:none;
@@ -176,29 +176,30 @@ button {  width: auto; overflow: visible; }
 	float:left;
 }
 #header #logo img{
-	width:250px;
+	width:300px;
 }
 #header .rule{
 	margin-top:40px;
 	float:left;
-	border-top:3px solid #231f1f;
+	
 }
 #header #leftRule{
-	margin-left:50px;
+	margin-left:0px;
 	margin-right:10px;
 	
 	width:60px;
 }
 #header #rightRule{
 	margin-left:10px;
-	width:550px;
+	width:590px;
+	border-top:3px solid #231f1f;
 }
 #logo{
 	float:left;
 }
 #intro{
 	overflow:auto;
-	width:800px;
+	width:700px;
 	margin:0 auto;
 }
 #introBody{
