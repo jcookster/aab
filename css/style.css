@@ -141,15 +141,15 @@ button {  width: auto; overflow: visible; }
 */
 #navigation{
 	float:right;
-	margin-bottom:-30px;
+	margin-bottom:-10px;
 	position:relative;
-	padding:40px 100px 0 0;
+	padding:20px 100px 0 0;
 }
 #navigation a{
 	text-decoration:none;
 	color:#656565;
 }
-	
+.navName{ width:100px;}	
 .navigationBlock{
 	display:block;
 	float:left;
@@ -161,22 +161,21 @@ button {  width: auto; overflow: visible; }
 	font-weight:bold;
 }
 .navigationDescription{
-	font-size:1em;
+	font-size:.825em;
 }
 .navigationMarker{
 	float:left;
 	font-size:1.5em;
-	margin:1px 8px 0 8px;
-	font-weight:bold;
+	margin:8px 8px 0 8px;
 }
 
 /* header section */
 #header{
-	
+	margin:30px 0 40px 0;
 	float:left;
 }
 #header #logo img{
-	width:300px;
+	width:330px;
 }
 #header .rule{
 	margin-top:40px;
@@ -184,15 +183,17 @@ button {  width: auto; overflow: visible; }
 	
 }
 #header #leftRule{
-	margin-left:0px;
+	margin-left:40px;
 	margin-right:10px;
-	
-	width:60px;
+	margin-top:50px;
+	border-top:2px solid #231f1f;
+	width:100px;
 }
 #header #rightRule{
 	margin-left:10px;
-	width:590px;
-	border-top:3px solid #231f1f;
+	margin-top:50px;
+	width:460px;
+	border-top:2px solid #231f1f;
 }
 #logo{
 	float:left;
@@ -295,4 +296,75 @@ button {  width: auto; overflow: visible; }
 #footer img{
 	display:block;
 	float:left;
+}
+.contact{
+	width:800px;
+	margin:0 auto;
+	height:220px;
+}
+.contactIntro{
+	border:2px solid black;
+	height:100%;
+}
+.contactIntro p{
+	margin:10px;
+	font-size:1.4em;
+	width:720px;
+}
+.contactIntro img{
+	margin:20px 30px 10px 20px;
+	width:200px;
+	float:left;
+	border:1px solid black;
+}
+.contactIntro h1{
+	padding-bottom:5px;
+	font-size:1.5em;
+	font-weight:bold;
+}
+.fullRule{
+	
+	margin-bottom:3px;
+	border-top:3px solid black;
+}
+
+.staticMap{
+	margin:0 0 10px 20px;
+	clear:left;
+	float:left;
+	width:300px;
+}
+.staticMap img{
+	border-radius:2px;
+	border:2px solid black;
+}
+.contactBody{
+	font-size:1.1em;
+	height:80px;
+	margin:30px 60px;
+}
+.contactBody h1{
+	text-decoration:underline;
+	font-size:1.2em;
+}
+.hoursOfOperation{
+	float:left;
+}
+.directionBody{
+	margin:30px;
+	padding:30px;
+}
+.address{
+	float:right;
+	margin-left:100px;
+}
+
+.relativeDirections{
+	float:left;
+	font-size:1.1em;
+}
+.break{
+clear:both;
+height:100px;
+width:100px;
 }

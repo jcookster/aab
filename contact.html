@@ -33,43 +33,6 @@
 <body onload="initialize()">
 	<div id="container">
 		<div id="main">
-			<div id="navigation">
-				<div class="navigationBlock">
-					<p class="navigationItem">
-						<a href="/">Home</a>
-					</p>	
-					<p class="navigationDescription">get back</p>
-				 </div>
-				<p class="navigationMarker">//</p>
-				<div class="navigationBlock"> 
-						<p class="navigationItem">
-							<a href="#">Beer</a>
-						</p> 
-						<p class="navigationDescription">get back</p>
-				</div> 
-				<p class="navigationMarker">//</p>
-				<div class="navigationBlock"> 
-					<p class="navigationItem">
-						<a href="#">Brewing</a>
-					</p> 
-					<p class="navigationDescription">brew  beer</p>
-				</div> 
-				<p class="navigationMarker">//</p>
-				<div class="navigationBlock"> 
-					<p class="navigationItem">
-						<a href="about">About</a>
-					</p> 
-					<p class="navigationDescription">our operation</p>
-				</div> 
-				<p class="navigationMarker">//</p>
-				<div class="navigationBlock"> 
-					<p class="navigationItem">
-						<a href="contact">Contact</a>
-					</p> 
-					<p class="navigationDescription">get ahold of us</p>
-				</div> 
-			</div>
-			
 			<div id="header">
 				<div id="leftRule" class="rule"></div>
 				<div id="logo">
@@ -81,29 +44,75 @@
 			</div>
 			
 			<div id="pageBody">
-				
-				<div id="staticMap">
-					<img src="http://maps.google.com/maps/api/staticmap?center=El+Cajon,San+Diego,CA&zoom=14&size=240x240&maptype=roadmap&sensor=false"/>
+
+				<div class="contact">
 					
-					<!--
-
-&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
-
-&markers=color:red%7Ccolor:red%7Clabel:C%7C40.718217,-73.998284&sensor=false"/>
-
-				-->
+					<div class="fullRule"></div>			
+					
+					<div class="contactIntro">
+						<img src="images/beer_kettle.jpg"/>
+						<p><strong>All About Brewing&#8482;</strong> is San Diego’s newest home brewing supply store. Located just off of I-8 in El Cajon, home brewing connoisseurs from all over San Diego will have no problem accessing our all new store front. </p>
+						<p>We stock a virtual cornucopia of brewing supplies that cater to both the malt extract and all grain brewing processes. Our easy to find location and friendly staff will help to ensure that every batch of beer you brew is everything you want and more in a beer.</p>
+					</div>
 				</div>
-				<p>More specific directions at our <a href="custom-directions" >customized directions page</a> may help you on your way to fulfill your home brewing needs.</p>				
+				<div class="contactBody">
+					<div class="hoursOfOperation">
+						<h1>Hours of Operation:</h1>
+						<ul>
+							<li>Sunday - Monday: <strong>Closed</strong></li>
+							<li>Tuesday - Friday: <strong>12 - 6</strong></li>
+							<li>Saturday: <strong>9 - 3</strong></li>
+						</ul>
+					</div>
+					<div class="address">
+						<h1>Address</h1>
+						<p>700 North Johnson Avenue, Suite G<p>
+						<p>El Cajon, CA 92020</p>
+						<p>Phone: (619) 447-BREW (2739)</p>
+						
+					</div>
+				</div>
+			 
+			
+			<div class="directionBody">
+				<div class="staticMap">
+					<img src="http://maps.google.com/maps/api/staticmap?center=Downtown,San+Diego,CA&zoom=14&size=240x240&maptype=roadmap&sensor=false"/>
+				</div>
+					
+	
+				<div class="relativeDirections">
+					<h3>From I-8 Eastbound:</h3>
+					<ul>
+						<li>Exit Johnson Avenue, turn left</li>
+						<li>Take first left at Arnele (stay in right lane of two left turn lanes)</li>
+						<li>Turn in first driveway on right</li>
+						<li>All About Brewing will be the last door on the left</li>
+					</ul>
+				</div>
+				<div class="staticMap">
+					<img src="http://maps.google.com/maps/api/staticmap?center=Downtown,San+Diego,CA&zoom=14&size=240x240&maptype=roadmap&sensor=false"/>
+				</div>
+					<div class="relativeDirections">
+					
+					<h3>From I-8 Westbound:</h3>
+					<ul>
+						<li>Exit West Main Street, turn left</li>
+						<li>Take first left at Marshall</li>
+						<li>Turn right at Arnele</li>
+						<li>Turn left in last driveway before the Johnson Ave signal light</li>
+						<li>All About Brewing last door on the left</li>
+					</ul>
+				</div>
+			</div>
+			<div class="break"></div>			
 				
-				<div id=footer>
+			</div> <!--  end of page body -->
+			<div id=footer>
 						<div class="footerRule"></div>
 						<img src="images/footer_detail.png"/>
 						<div class="footerRule"></div>
 						<p>Copyright 2011 AllAboutBrewing</p>
 				</div>
-				
-				
-			</div> <!--  end of page body -->
 		</div> <!-- End of main -->
 	</div> <!-- end of #container -->
 </body>
