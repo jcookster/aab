@@ -69,9 +69,7 @@ input:valid, textarea:valid   {  }
 input:invalid, textarea:invalid { border-radius: 1px;  -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red;  box-shadow: 0px 0px 5px red; }
 .no-boxshadow input:invalid, 
 .no-boxshadow textarea:invalid { background-color: #f0dddd; }
-
  
-a:link { -webkit-tap-highlight-color: #FF5E99; } 
 
 button {  width: auto; overflow: visible; }
 .ie7 img { -ms-interpolation-mode: bicubic; }
@@ -139,23 +137,39 @@ button {  width: auto; overflow: visible; }
 	navigationItem = A page link 
 	navigationDescription = A page description
 */
-#navigation{
+
+/*#navigation{
 	float:right;
 	margin-bottom:-10px;
 	position:relative;
 	padding:20px 100px 0 0;
 }
+*/
+.navigation{
+	margin:5px 0 0 10px;
+	
+}
 #navigation a{
 	text-decoration:none;
 	color:#656565;
 }
-.navName{ width:100px;}	
+.navName{ 
+	width:100px;
+}	
 .navigationBlock{
 	display:block;
 	float:left;
 	text-align:center;
-	
 }
+.navigationBlock a {
+	text-decoration:none;
+	color: #231f1f	
+}
+.selectedNavigationItem a {
+	text-decoration:none;
+	color: #656565	
+}
+
 .navigationItem{
 	font-size:1.2em;
 	font-weight:bold;
@@ -166,45 +180,49 @@ button {  width: auto; overflow: visible; }
 .navigationMarker{
 	float:left;
 	font-size:1.5em;
-	margin:8px 8px 0 8px;
+	margin:8px 28px 0 8px;
 }
 
 /* header section */
 #header{
-	margin:30px 0 40px 0;
+	margin:30px auto 40px auto;
 	float:left;
 }
 #header #logo img{
 	width:330px;
 }
 #header .rule{
-	margin-top:40px;
+	margin-top:35px;
 	float:left;
-	
 }
 #header #leftRule{
 	margin-left:40px;
 	margin-right:10px;
-	margin-top:50px;
+	
 	border-top:2px solid #231f1f;
 	width:100px;
 }
 #header #rightRule{
 	margin-left:10px;
-	margin-top:50px;
+	
 	width:460px;
 	border-top:2px solid #231f1f;
 }
 #logo{
 	float:left;
 }
+
+
+
+
+
 #intro{
 	overflow:auto;
 	width:700px;
 	margin:0 auto;
 }
 #introBody{
-	margin:30px 0 40px 0;
+	margin:0 0 40px 0;
 }
 #intro img{
 	float:left;

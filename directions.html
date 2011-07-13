@@ -15,24 +15,16 @@
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="css/style.css?v=2">
-  <script src="js/libs/jquery-1.4.2.min.js"</script>
-  <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-21965628-1']);
-  _gaq.push(['_setDomainName', 'none']);
-  _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-  </script>
- 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="js/ga.js"> </script>
+  <script src="js/script.js"></script>
 </head>
 <body>
 	<div id="container">
 		<div id="main">
+		
+		
+			<!--  Header and Navigation -->
 			<div id="header">
 				<div id="leftRule" class="rule"></div>
 				<div id="logo">
@@ -40,8 +32,33 @@
 						<img src="images/header_logo.png"/>
 					</a>
 				</div>
-				<div id="rightRule" class="rule"></div>
+				<div id="rightRule" class="rule">
+					<div class="navigation">
+						<div id="navHome" class="navigationBlock"> 
+							<p class="navigationItem"><a href="/">Home</a></p> 
+							<p class="navigationDescription"><a href="/">Our Operation</a></p>
+						</div>
+						<p class="navigationMarker"></p>
+						<div id="navInventory" class="navigationBlock"> 
+							<p class="navigationItem"><a href="/inventory">Inventory</a></p> 
+							<p class="navigationDescription"><a href="/inventory">Supplies</a></p>
+						</div>
+						<p class="navigationMarker"></p>
+						<div id="navAbout" class="navigationBlock"> 
+							<p class="navigationItem"><a href="/about">About</a></p> 
+							<p class="navigationDescription"><a href="/about">Our family</a></p>
+						</div>
+						<p class="navigationMarker"></p>
+						<div id="navDirections" class="navigationBlock selectedNavigationItem"> 
+							<p class="navigationItem "><a href="/directions">Directions</a></p> 
+							<p class="navigationDescription"><a href="/directions">Come in</a></p>
+						</div>
+					</div>
+				</div>
 			</div>
+		
+			
+			
 			
 			<div id="pageBody">
 
