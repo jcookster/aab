@@ -384,3 +384,21 @@ button {  width: auto; overflow: visible; }
 	font-size:1.2em;
 }
 
+#inventory{
+	
+	margin: 0px auto;
+}
+.inventoryBlock{
+	float:left;
+	border:2px solid black;
+	margin:5px;
+	width:210px;
+}
+.inventoryRow{
+	margin:0 auto;
+	float:left;
+}
+.inventoryBlock img{
+	width:200px;
+	height:200px;
+}
