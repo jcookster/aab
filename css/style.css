@@ -326,7 +326,7 @@ button {  width: auto; overflow: visible; }
 }
 .contactIntro p{
 	margin:10px;
-	font-size:1.4em;
+	font-size:1.3em;
 	width:720px;
 }
 .contactIntro img{
@@ -403,7 +403,11 @@ button {  width: auto; overflow: visible; }
 	width:200px;
 	height:200px;
 }
-
+#inventoryContent
+{
+    border:1px solid black;
+    padding:8px;    
+}
 
 /* Caption CSS */
 .boxgrid
@@ -430,7 +434,7 @@ button {  width: auto; overflow: visible; }
 	background: #000;
 	height: 140px;
 	width: 100%;
-	opacity: .8;
+	opacity: .85;
 	/* For IE 5-7 */
 	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
 	/* For IE 8 */
@@ -458,7 +462,9 @@ button {  width: auto; overflow: visible; }
 /*About section*/
 #familyDescription
 {
-    width:700px;    
+    border:1px solid black;
+    padding:8px;
+        
     margin:10px auto 20px auto;
 }
 #familyPhoto
