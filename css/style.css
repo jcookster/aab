@@ -438,7 +438,7 @@ button {  width: auto; overflow: visible; }
 }
 
 .captionfull .boxcaption {
- 	top: 260px;
+ 	top: 220px;
  	left: 0;
  }
 .caption .boxcaption {
@@ -463,12 +463,8 @@ button {  width: auto; overflow: visible; }
 }
 #familyPhoto
 {
-    width:600px;
+    width:320px;
+    height:240px;
     margin:auto;
     border:2px solid black;
-}
-#familyPhoto img
-{
-    width:600px;
-    height:300px;    
 }

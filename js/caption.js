@@ -28,7 +28,7 @@
     $('.boxgrid.captionfull').hover(function () {
         $(".cover", this).stop().animate({ top: '120px' }, { queue: false, duration: 160 });
     }, function () {
-        $(".cover", this).stop().animate({ top: '260px' }, { queue: false, duration: 160 });
+        $(".cover", this).stop().animate({ top: '220px' }, { queue: false, duration: 160 });
     });
     //Caption Sliding (Partially Hidden to Visible)
     $('.boxgrid.caption').hover(function () {
