@@ -100,7 +100,7 @@ button {  width: auto; overflow: visible; }
 /* cook */
 #container
 {
-	padding-top:20px;
+	padding:20px 0 30px 0;
 	min-height:800px;
 	background-image:url("../images/cherryWood.jpg");
 	background-repeat:repeat;	
